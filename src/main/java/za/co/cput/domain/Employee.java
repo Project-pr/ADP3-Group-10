@@ -10,21 +10,21 @@ package za.co.cput.domain;
 
 public class Employee {
 
-    private  int employeeId;
-    private String firstName;
-    private String lastName;
-    private String dateOfBirth;
-    private String gender;
-    private String contactInformation;
-    private String address;
-    private String nationality;
-    private String maritalStatus;
-    private String employmentStatus;
-    private String dateOfHire;
-    private String department;
-    private String positionTitle;
-    private int supervisorId;
-    private double salary;
+    private final int employeeId;
+    private final String firstName;
+    private final String lastName;
+    private final String dateOfBirth;
+    private final String gender;
+    private final String contactInformation;
+    private final String address;
+    private final String nationality;
+    private final String maritalStatus;
+    private final String employmentStatus;
+    private final String dateOfHire;
+    private final String department;
+    private final String positionTitle;
+    private final int supervisorId;
+    private final double salary;
 
     private Employee(int employeeId, Builder builder) {
         this.employeeId = employeeId;
