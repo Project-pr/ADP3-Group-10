@@ -1,4 +1,4 @@
-package za.co.cput.payroll;
+package za.co.cput.domain;
 
 /* Author   : Likhaya Kalimashe
  * Student no.: 240329171
@@ -130,7 +130,7 @@ public class PayrollInfo {
     }
 
     // Main class for running the payroll system
-    public class PayrollInformation {
+    public static class PayrollInformation {
         public static void main(String[] args) {
             // Instantiate repository
             PayrollRepository repository = InMemoryPayrollRepositoryImpl.getInstance();
