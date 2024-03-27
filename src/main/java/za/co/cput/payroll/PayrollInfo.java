@@ -5,6 +5,7 @@ package za.co.cput.payroll;
  * Subject  : Applications Development 3
  * Date     :27 March 2024
  * Assignment 1
+ *
  */
 
 import java.util.*;
@@ -104,7 +105,7 @@ public class PayrollInfo {
 
         @Override
         public void create(Employee employee) {
-            employeeMap.put(employee.getEmployeeId(), employee);
+            Employee put = employeeMap.put(employee.getEmployeeId(), employee);
         }
 
         @Override
